@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+
+    {{ .Content }}
+
+    <div class="press-photos">
+        {{ $photos := slice
+            (dict "thumb" "/images/presse/web/J4A6785SH-400.jpg" "hires" "/images/presse/J4A6785SH.jpg")
+            (dict "thumb" "/images/presse/web/J4A6692SH-400.jpg" "hires" "/images/presse/J4A6692SH.jpg")
+            (dict "thumb" "/images/presse/web/J4A6741SH-400.jpg" "hires" "/images/presse/J4A6741SH.jpg")
+            (dict "thumb" "/images/presse/web/J4A6548SH-400.jpg" "hires" "/images/presse/J4A6548SH.jpg")
+        }}
+        {{ range $photos }}
+        <div class="press-photo-item">
+            <a href="{{ .hires | relURL }}" download>
+                <img src="{{ .thumb | relURL }}" alt="Erik Barfoed. Foto: Morten Holtum">
+            </a>
+            <p class="photo-credit">Foto: Morten Holtum</p>
+            <p class="press-download-links">
+                <a href="{{ .hires | relURL }}" download>Download (fuld opløsning)</a>
+            </p>
+        </div>
+        {{ end }}
+    </div>
+</article>
+{{ end }}

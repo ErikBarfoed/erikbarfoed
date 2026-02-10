@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<div class="books-grid">
+    {{ range (.Pages.ByParam "year").Reverse }}
+    <div class="book-card">
+        <a href="{{ .Permalink }}">
+            <img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}">
+        </a>
+        <p class="book-card-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </p>
+        <p class="book-card-year">{{ .Params.year }}</p>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

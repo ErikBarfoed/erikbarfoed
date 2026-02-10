@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1>Arkiv</h1>
+
+{{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+<h2 class="archive-year">{{ .Key }}</h2>
+<ul class="archive-list">
+    {{ range .Pages }}
+    <li>
+        <span class="archive-date">{{ .Date.Format "2/1" }}</span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ end }}

@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article class="book-single">
+    <div class="book-header">
+        <div class="book-cover">
+            <img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}">
+        </div>
+        <div class="book-info">
+            <h1>{{ .Title }}</h1>
+            <p class="book-meta">
+                {{ with .Params.publisher }}{{ . }}{{ end }}{{ with .Params.year }}, {{ . }}{{ end }}
+            </p>
+            <div class="book-description">
+                {{ .Content }}
+            </div>
+            <div class="book-buttons">
+                {{ with .Params.buy_link }}
+                <a href="{{ . }}" class="btn" target="_blank" rel="noopener">Køb bogen</a>
+                {{ end }}
+                {{ with .Params.ebook_link }}
+                <a href="{{ . }}" class="btn" target="_blank" rel="noopener">E-bog</a>
+                {{ end }}
+                {{ with .Params.audiobook_link }}
+                <a href="{{ . }}" class="btn" target="_blank" rel="noopener">Lydbog</a>
+                {{ end }}
+                {{ with .Params.library_link }}
+                <a href="{{ . }}" class="btn" target="_blank" rel="noopener">Lån på biblioteket</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+    {{ with .Params.reviews }}
+    <div class="book-reviews">
+        <h2>Anmeldelser</h2>
+        {{ range . }}
+        <blockquote>
+            {{ .quote }}
+            {{ with .source }}<cite>— {{ . }}</cite>{{ end }}
+        </blockquote>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <a href="{{ "boeger/" | relURL }}" class="back-link">← Alle bøger</a>
+</article>
+{{ end }}

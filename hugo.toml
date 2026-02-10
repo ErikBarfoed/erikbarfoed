@@ -1,0 +1,17 @@
+baseURL = "https://erikbarfoed.dk/"
+languageCode = "da"
+title = "Erik Barfoed"
+theme = "erikbarfoed-theme"
+
+[params]
+  description = "Forfatter og illustrator"
+  author = "Erik Barfoed"
+  # Formspree ID tilføjes senere
+  # formspree_id = "XXXXXXXX"
+
+[permalinks]
+  posts = "/:year/:month/:slug/"
+  boeger = "/boeger/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,27 @@
+# Hugo konfiguration for erikbarfoed.dk
+baseURL = "https://erikbarfoed.dk/"
+languageCode = "da"
+title = "Erik Barfoed"
+theme = "erikbarfoed"
+
+[params]
+  description = "Forfatter og illustrator"
+  author = "Erik Barfoed"
+  # Indsæt dit Formspree form ID her (opret på formspree.io)
+  formspree_id = "XXXXXXXX"
+
+# Danske månedsnavne
+[languages.da]
+  languageName = "Dansk"
+  
+[languages.da.params]
+  monthNames = ["januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"]
+
+# Permalinks
+[permalinks]
+  posts = "/:year/:month/:slug/"
+  boeger = "/boeger/:slug/"
+
+# Markup settings
+[markup.goldmark.renderer]
+  unsafe = true

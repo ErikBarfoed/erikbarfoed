@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    
+    {{ .Content }}
+    
+    <form class="contact-form" action="https://formspree.io/f/{{ .Site.Params.formspree_id }}" method="POST">
+        <label for="name">Navn</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Besked</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send besked</button>
+    </form>
+    
+    <div class="social-links">
+        <p><a href="https://instagram.com/writererikbarfoed" target="_blank" rel="noopener">@writererikbarfoed</a> (bøger)</p>
+        <p><a href="https://instagram.com/ebarfoedart" target="_blank" rel="noopener">@ebarfoedart</a> (tegninger)</p>
+    </div>
+</article>
+{{ end }}
