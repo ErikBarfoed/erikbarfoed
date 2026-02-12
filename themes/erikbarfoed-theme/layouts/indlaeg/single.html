@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="post">
+    <p class="post-date">{{ time.Format "2. January 2006" .Date }}</p>
+    <h1 class="post-title">{{ .Title }}</h1>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    <a href="{{ .Site.BaseURL }}" class="back-link">← Forside</a>
+</article>
+{{ end }}

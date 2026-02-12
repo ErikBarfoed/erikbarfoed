@@ -1,10 +1,18 @@
-baseURL = "https://erikbarfoed.dk/"
-languageCode = "da"
+baseURL = "/"
+relativeURLs = true
 title = "Erik Barfoed"
 theme = "erikbarfoed-theme"
+defaultContentLanguage = "da"
+
+[languages]
+  [languages.da]
+    languageName = "Dansk"
+    languageCode = "da"
+    weight = 1
 
 [params]
-  description = "Forfatter og illustrator"
+  description = "Børne- og ungdomsforfatter"
+  default_image = "/images/portrait.jpg"
   author = "Erik Barfoed"
   # Formspree ID tilføjes senere
   # formspree_id = "XXXXXXXX"

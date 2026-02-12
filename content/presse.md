@@ -1,5 +1,6 @@
 ---
 title: "Presse"
+description: "Pressebilleder af Erik Barfoed i fuld opløsning. Foto: Morten Holtum."
 type: "page"
 layout: "presse"
 photos:

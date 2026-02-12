@@ -1,5 +1,25 @@
 {{ define "main" }}
 
+{{ $posts := (where .Site.RegularPages "Section" "indlaeg").ByDate.Reverse }}
+{{ $recentPosts := first 5 $posts }}
+
+{{ if $recentPosts }}
+<section class="posts-section">
+    {{ range $recentPosts }}
+    <article class="post">
+        <p class="post-date">{{ time.Format "2. January 2006" .Date }}</p>
+        <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    </article>
+    {{ end }}
+    {{ if gt (len $posts) 5 }}
+    <p class="posts-archive-link"><a href="{{ "indlaeg/" | relURL }}">Alle indlæg</a></p>
+    {{ end }}
+</section>
+{{ end }}
+
 {{ $allBooks := (where .Site.RegularPages "Section" "boeger").ByParam "year" | collections.Reverse }}
 {{ $featured := index $allBooks 0 }}
 
@@ -17,7 +37,7 @@
             <div class="book-description">
                 {{ $featured.Summary }}
             </div>
-            <a href="{{ $featured.Permalink }}" class="btn">Læs mere →</a>
+            <a href="{{ $featured.Permalink }}" class="btn">Læs mere</a>
         </div>
     </div>
 </section>

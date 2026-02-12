@@ -1,5 +1,6 @@
 ---
 title: "Kontakt"
+description: "Kontakt forfatter Erik Barfoed på barfoed@me.com."
 type: "page"
 layout: "kontakt"
 ---

@@ -1,6 +1,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.description }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+{{- $description := .Description | default .Params.description | default (.Summary | plainify | truncate 160) | default .Site.Params.description -}}
+<meta name="description" content="{{ $description }}">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32.png" | relURL }}">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:locale" content="da_DK">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{- with .Params.cover }}
+<meta property="og:image" content="{{ . | absURL }}">
+{{- else }}
+{{- with .Site.Params.default_image }}
+<meta property="og:image" content="{{ . | absURL }}">
+{{- end }}
+{{- end }}
+
+<!-- Twitter/X -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ $description }}">

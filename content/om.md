@@ -1,5 +1,6 @@
 ---
 title: "Om forfatteren"
+description: "Erik Barfoed er børne- og ungdomsforfatter. Han skriver om sult og overlevelse, venskab under pres, og hvad det koster at holde fast i sin menneskelighed."
 portrait: "/images/portrait.jpg"
 photo_credit: "Morten Holtum"
 ---
