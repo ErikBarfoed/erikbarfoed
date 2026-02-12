@@ -4,14 +4,11 @@
         <div class="book-cover">
             <img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}">
         </div>
-        <div class="book-info">
+        <div class="book-meta-col">
             <h1>{{ .Title }}</h1>
             <p class="book-meta">
-                {{ with .Params.publisher }}{{ . }}{{ end }}{{ with .Params.year }}, {{ . }}{{ end }}
+                {{ with .Params.publisher }}{{ . }}, {{ end }}{{ with .Params.year }}{{ . }}{{ end }}
             </p>
-            <div class="book-description">
-                {{ .Content }}
-            </div>
             <div class="book-buttons">
                 {{ with .Params.buy_link }}
                 <a href="{{ . }}" class="btn" target="_blank" rel="noopener">Køb bogen</a>
@@ -29,17 +26,47 @@
         </div>
     </div>
 
-    {{ with .Params.reviews }}
-    <div class="book-reviews">
-        <h2>Anmeldelser</h2>
-        {{ range . }}
-        <blockquote>
-            {{ .quote }}
-            {{ with .source }}<cite>— {{ . }}</cite>{{ end }}
-        </blockquote>
+    <div class="book-body">
+        <div class="book-description">
+            {{ .Content }}
+        </div>
+
+        {{ with .Params.gallery }}
+        {{ $galleryPath := printf "static/images/galleries/%s" . }}
+        {{ $files := readDir $galleryPath }}
+        {{ $images := slice }}
+        {{ range $files }}{{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".png") }}{{ $images = $images | append . }}{{ end }}{{ end }}
+        {{ if $images }}
+        <div class="book-gallery">
+            <h2>Illustrationer fra bogen</h2>
+            <div class="carousel">
+                <button class="carousel-btn carousel-prev" aria-label="Forrige">&#8249;</button>
+                <div class="carousel-track">
+                    {{ range $i, $file := $images }}
+                    <div class="carousel-slide{{ if eq $i 0 }} active{{ end }}">
+                        <img src="{{ printf "/images/galleries/%s/%s" $.Params.gallery $file.Name | relURL }}" alt="Illustration fra {{ $.Title }}">
+                    </div>
+                    {{ end }}
+                </div>
+                <button class="carousel-btn carousel-next" aria-label="Næste">&#8250;</button>
+            </div>
+            <p class="carousel-counter">1 / {{ len $images }}</p>
+        </div>
+        {{ end }}
+        {{ end }}
+
+        {{ with .Params.reviews }}
+        <div class="book-reviews">
+            <h2>Anmeldelser</h2>
+            {{ range . }}
+            <blockquote>
+                {{ .quote | markdownify }}
+                {{ with .source }}<cite>— {{ . }}</cite>{{ end }}
+            </blockquote>
+            {{ end }}
+        </div>
         {{ end }}
     </div>
-    {{ end }}
 
     <a href="{{ "boeger/" | relURL }}" class="back-link">← Alle bøger</a>
 </article>

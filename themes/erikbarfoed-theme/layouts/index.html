@@ -31,7 +31,7 @@
             </a>
         </div>
         <div class="book-info">
-            <p class="book-meta">Seneste bog</p>
+            <p class="book-meta">Seneste udgivelse</p>
             <h1><a href="{{ $featured.Permalink }}" style="color: inherit; text-decoration: none;">{{ $featured.Title }}</a></h1>
             {{ with $featured.Params.subtitle }}<p class="book-meta" style="font-size: 1.1rem; margin-bottom: 1rem;">{{ . }}</p>{{ end }}
             <div class="book-description">
@@ -41,25 +41,5 @@
         </div>
     </div>
 </section>
-
-{{ $rest := after 1 $allBooks }}
-{{ if $rest }}
-<section style="margin-top: 3rem;">
-    <h2>Alle bøger</h2>
-    <div class="books-grid">
-        {{ range $rest }}
-        <div class="book-card">
-            <a href="{{ .Permalink }}">
-                <img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}">
-            </a>
-            <p class="book-card-title">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </p>
-            <p class="book-card-year">{{ .Params.year }}</p>
-        </div>
-        {{ end }}
-    </div>
-</section>
-{{ end }}
 
 {{ end }}

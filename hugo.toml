@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://erikbarfoed.dk/"
 relativeURLs = true
 title = "Erik Barfoed"
 theme = "erikbarfoed-theme"
@@ -11,11 +11,9 @@ defaultContentLanguage = "da"
     weight = 1
 
 [params]
-  description = "Børne- og ungdomsforfatter"
+  description = "Erik Barfoed er børne- og ungdomsforfatter. Han skriver eventyrfortællinger for børn og unge om venskab, overlevelse og læselyst — fra historiske romaner til graphic novels."
   default_image = "/images/portrait.jpg"
   author = "Erik Barfoed"
-  # Formspree ID tilføjes senere
-  # formspree_id = "XXXXXXXX"
 
 [permalinks]
   posts = "/:year/:month/:slug/"

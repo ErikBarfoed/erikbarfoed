@@ -245,7 +245,7 @@ a:hover {
 .book-header {
     display: flex;
     gap: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .book-cover {
@@ -259,11 +259,14 @@ a:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.book-info {
+.book-meta-col {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.book-info h1 {
+.book-meta-col h1 {
     font-size: 1.6rem;
     color: var(--color-accent);
     margin-top: 0;
@@ -274,11 +277,20 @@ a:hover {
     font-family: var(--font-ui);
     font-size: 0.9rem;
     color: #666;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.book-body {
+    max-width: 640px;
 }
 
 .book-description {
     margin-bottom: 1.5rem;
+}
+
+.book-description img {
+    max-width: 100%;
+    height: auto;
 }
 
 .btn {
@@ -302,6 +314,178 @@ a:hover {
     flex-wrap: wrap;
     gap: 0.75rem;
     margin-top: 1rem;
+}
+
+/* ===== PRESSELISTE ===== */
+details.press-list {
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-border);
+}
+
+details.press-list summary {
+    font-family: var(--font-ui);
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    color: var(--color-accent);
+    transition: background 0.2s ease;
+}
+
+details.press-list summary:hover {
+    background: rgba(139, 58, 47, 0.05);
+}
+
+details.press-list h4 {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 1.25rem 1.25rem 0.5rem;
+    color: var(--color-text);
+}
+
+details.press-list ul {
+    list-style: none;
+    padding: 0 1.25rem;
+    margin: 0 0 0.75rem;
+}
+
+details.press-list li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding: 0.2rem 0;
+}
+
+details.press-list li a {
+    color: var(--color-accent);
+}
+
+/* ===== BOGUDDRAG ===== */
+details.book-excerpt {
+    margin-top: 2.5rem;
+    border: 1px solid var(--color-border);
+}
+
+details.book-excerpt summary {
+    font-family: var(--font-ui);
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    color: var(--color-accent);
+    transition: background 0.2s ease;
+}
+
+details.book-excerpt summary:hover {
+    background: rgba(139, 58, 47, 0.05);
+}
+
+details.book-excerpt .excerpt-text {
+    padding: 1.25rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+details.book-excerpt .excerpt-text img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* ===== KARRUSEL ===== */
+.book-gallery {
+    margin-top: 2.5rem;
+}
+
+.book-gallery h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.carousel-track {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background: #faf8f6;
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    max-height: 450px;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.carousel-btn {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 1px solid var(--color-border);
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--color-accent);
+    transition: background 0.2s ease;
+}
+
+.carousel-btn:hover {
+    background: rgba(139, 58, 47, 0.05);
+}
+
+.carousel-counter {
+    text-align: center;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+/* ===== LIGHTBOX ===== */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 92%;
+    max-height: 92vh;
+    object-fit: contain;
 }
 
 .book-reviews {
@@ -363,27 +547,48 @@ blockquote cite {
     font-size: 0.95rem;
 }
 
-.press-photos {
+.press-photos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     margin-top: 2rem;
 }
 
-.press-photo-item {
-    margin-bottom: 2rem;
+@media (max-width: 600px) {
+    .press-photos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .press-photo-item img {
-    max-width: 300px;
+    width: 100%;
     height: auto;
-    margin-bottom: 0.5rem;
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
 }
 
-.press-download-links {
+.press-photo-item img:hover {
+    opacity: 0.85;
+}
+
+.press-photo-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.4rem;
     font-family: var(--font-ui);
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
 
-.press-download-links a {
-    margin-right: 1rem;
+.press-photo-label {
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.press-download {
+    color: var(--color-accent);
 }
 
 /* ===== KONTAKT SIDE ===== */

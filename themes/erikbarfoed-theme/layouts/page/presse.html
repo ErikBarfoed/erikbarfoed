@@ -4,24 +4,32 @@
 
     {{ .Content }}
 
-    <div class="press-photos">
-        {{ $photos := slice
-            (dict "thumb" "/images/presse/web/J4A6785SH-400.jpg" "hires" "/images/presse/J4A6785SH.jpg")
-            (dict "thumb" "/images/presse/web/J4A6692SH-400.jpg" "hires" "/images/presse/J4A6692SH.jpg")
-            (dict "thumb" "/images/presse/web/J4A6741SH-400.jpg" "hires" "/images/presse/J4A6741SH.jpg")
-            (dict "thumb" "/images/presse/web/J4A6548SH-400.jpg" "hires" "/images/presse/J4A6548SH.jpg")
-        }}
-        {{ range $photos }}
+    <div class="press-photos-grid">
+        {{ range .Params.photos }}
         <div class="press-photo-item">
-            <a href="{{ .hires | relURL }}" download>
-                <img src="{{ .thumb | relURL }}" alt="Erik Barfoed. Foto: Morten Holtum">
-            </a>
-            <p class="photo-credit">Foto: Morten Holtum</p>
-            <p class="press-download-links">
-                <a href="{{ .hires | relURL }}" download>Download (fuld opløsning)</a>
-            </p>
+            <img src="{{ .thumbnail | relURL }}" alt="Erik Barfoed. Foto: Morten Holtum" class="press-lightbox-trigger" data-lightbox-src="{{ .lightbox | relURL }}">
+            <div class="press-photo-meta">
+                <span class="press-photo-label">{{ .label }}</span>
+                <a href="{{ .original | relURL }}" download class="press-download">Download</a>
+            </div>
         </div>
         {{ end }}
     </div>
+    <p class="photo-credit">Foto: Morten Holtum</p>
 </article>
+
+<script>
+(function() {
+    document.querySelectorAll('.press-lightbox-trigger').forEach(function(img) {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', function() {
+            var lb = document.getElementById('lightbox');
+            var lbImg = lb.querySelector('img');
+            lbImg.src = this.getAttribute('data-lightbox-src');
+            lbImg.alt = this.alt;
+            lb.classList.add('active');
+        });
+    });
+})();
+</script>
 {{ end }}

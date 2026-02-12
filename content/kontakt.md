@@ -1,10 +1,17 @@
 ---
 title: "Kontakt"
-description: "Kontakt forfatter Erik Barfoed på barfoed@me.com."
+description: "Kontakt børne- og ungdomsforfatter Erik Barfoed — også for signerede bøger."
 type: "page"
 layout: "kontakt"
 ---
 
-Erik Barfoed kan kontaktes på **barfoed@me.com** — uanset om det handler om bøger, forfatterskab eller signerede eksemplarer.
+Erik Barfoed kan kontaktes på <strong><a id="contact-email" href="#">...</a></strong> — også for signerede eksemplarer.
 
-Han findes også på [Instagram](https://www.instagram.com/writererikbarfoed/).
+<script>
+(function() {
+    var u = 'barfoed'; var d = 'me.com';
+    var e = document.getElementById('contact-email');
+    e.href = 'mailto:' + u + '@' + d;
+    e.textContent = u + '@' + d;
+})();
+</script>
