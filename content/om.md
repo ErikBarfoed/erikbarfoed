@@ -20,7 +20,7 @@ Erik Barfoed bor i København.
 - *Monopol* — tegneserie i Det Danske Bogmarked (1999–2005)
 - *Undskyld, hvor er Ulysses?* — illustrationer, forfatter: Jannik Lund (Haase, 2000)
 - *Homeriske genklange* — illustrationer, forfatter: Marcel Lysgaard Lech (Hans Reitzels Forlag, 2021)
-- [*Æ*](https://detpoetiskebureau.dk/vare/ae/) — akvarel, Det Poetiske Bureau
+- [*Æ*](https://detpoetiskebureau.dk/vare/ae/) — akvarel, Det Poetiske Bureau (2026)
 
 ### Artikler
 
