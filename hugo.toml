@@ -1,4 +1,4 @@
-baseURL = "https://erikbarfoed.netlify.app/"
+baseURL = "https://erikbarfoed.dk/"
 relativeURLs = true
 title = "Erik Barfoed"
 theme = "erikbarfoed-theme"
