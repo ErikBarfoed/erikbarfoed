@@ -15,6 +15,7 @@ reviews:
     source: "Bodil Christensen, Bogbotten"
   - quote: "Flot og stærkt værk, der med egen fortolkning af Reuters klassiker vil finde nye unge som voksne læsere. Her er dramatisk handling, følsomme og modige karakterer og en fantastisk detaljerigdom i de nærmest glødende tegninger, der giver masser af kraft, liv og farverig dybde til fortællingen. Oplagt til brug i undervisning med sine spændende multimodale virkemidler via tekst og billede."
     source: "Pia Bechmann, Lektørudtalelse"
+gallery: "drengene-fra-sankt-petri"
 weight: 2
 ---
 
