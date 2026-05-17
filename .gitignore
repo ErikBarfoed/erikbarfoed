@@ -16,3 +16,7 @@ Thumbs.db
 
 # Local Netlify folder
 .netlify
+backup/
+
+# Notesfiler (ikke sitens indhold)
+omtaler-erik-barfoed*.md
