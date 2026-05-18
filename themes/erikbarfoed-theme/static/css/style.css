@@ -180,6 +180,11 @@ a:hover {
     margin-top: 1rem;
 }
 
+.post-content img {
+    max-width: 100%;
+    height: auto;
+}
+
 .pagination {
     margin-top: 2rem;
     font-family: var(--font-ui);
