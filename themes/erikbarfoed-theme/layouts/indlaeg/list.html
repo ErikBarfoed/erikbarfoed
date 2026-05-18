@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <div class="tekst-list">
-{{ range .Pages.ByDate.Reverse }}
+{{ range where .Pages.ByDate.Reverse "Params.art" "tekst" }}
     <a class="tekst-row" href="{{ .Permalink }}">
         {{ with .Params.cover }}
         <span class="tekst-thumb"><img src="{{ . | relURL }}" alt=""></span>

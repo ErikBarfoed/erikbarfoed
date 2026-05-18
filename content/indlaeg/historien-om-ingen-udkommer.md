@@ -1,6 +1,7 @@
 ---
 title: "Historien om Ingen udkommer 20. februar"
 date: 2026-02-10
+art: "nyhed"
 ---
 
 "Fortæl mig om far."

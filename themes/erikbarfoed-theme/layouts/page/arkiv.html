@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h1>Arkiv</h1>
 
-{{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+{{ range (where .Site.RegularPages "Section" "indlaeg").GroupByDate "2006" }}
 <h2 class="archive-year">{{ .Key }}</h2>
 <ul class="archive-list">
     {{ range .Pages }}

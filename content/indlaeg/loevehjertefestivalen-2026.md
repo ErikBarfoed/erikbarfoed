@@ -2,6 +2,7 @@
 title: "Mød mig på Løvehjertefestivalen"
 date: 2026-04-01
 cover: "/images/covers/7a.jpg"
+art: "nyhed"
 ---
 
 ![7.A — grafisk roman af Erik Barfoed og Kristian Eskild Jensen](/images/covers/7a.jpg)

@@ -3,6 +3,7 @@ title: "Fortæl mig om far"
 date: 2026-05-18
 projekt: "Historien om Ingen"
 cover: "/images/indlaeg/ole-barfoed.jpg"
+art: "tekst"
 ---
 
 {{< figure src="/images/indlaeg/ole-barfoed.jpg" alt="Sort-hvidt fotografi af Ole Barfoed med pibe" caption="Min far, Ole Barfoed (1925–1989), ved et dyrskue engang i tresserne." >}}
