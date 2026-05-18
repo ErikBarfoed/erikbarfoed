@@ -10,13 +10,14 @@
         <p class="post-date">{{ time.Format "2. January 2006" .Date }}</p>
         <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <div class="post-content">
-            {{ .Content }}
+            {{ .Summary }}
         </div>
+        {{ if .Truncated }}
+        <p class="read-more"><a href="{{ .Permalink }}">Læs mere →</a></p>
+        {{ end }}
     </article>
     {{ end }}
-    {{ if gt (len $posts) 5 }}
-    <p class="posts-archive-link"><a href="{{ "indlaeg/" | relURL }}">Alle indlæg</a></p>
-    {{ end }}
+    <p class="posts-archive-link"><a href="{{ "indlaeg/" | relURL }}">Alle tekster →</a></p>
 </section>
 {{ end }}
 

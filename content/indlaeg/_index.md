@@ -1,3 +1,3 @@
 ---
-title: "Indlæg"
+title: "Tekster"
 ---

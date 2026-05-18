@@ -1,11 +1,19 @@
 {{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="tekst-list">
 {{ range .Pages.ByDate.Reverse }}
-<article class="post">
-    <p class="post-date">{{ time.Format "2. January 2006" .Date }}</p>
-    <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div class="post-content">
-        {{ .Content }}
-    </div>
-</article>
+    <a class="tekst-row" href="{{ .Permalink }}">
+        {{ with .Params.cover }}
+        <span class="tekst-thumb"><img src="{{ . | relURL }}" alt=""></span>
+        {{ else }}
+        <span class="tekst-thumb tekst-thumb-empty"></span>
+        {{ end }}
+        <span class="tekst-text">
+            <span class="tekst-title">{{ .Title }}</span>
+            <span class="tekst-date">{{ time.Format "2. January 2006" .Date }}</span>
+            <span class="tekst-teaser">{{ .Summary | plainify | truncate 150 }}</span>
+        </span>
+    </a>
 {{ end }}
+</div>
 {{ end }}

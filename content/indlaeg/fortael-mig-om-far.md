@@ -9,6 +9,8 @@ cover: "/images/indlaeg/fortael-mig-om-far.jpg"
 
 *Min far døde for over tredive år siden, men I de sidste mange måneder har han — ligesom da jeg var barn — siddet ved siden af mig og hjulpet mig med at genfortælle Odysséen, så børn får glæde af den. Han har mindet mig om, hvad det vil sige at fortælle for børn. Hans måde at fortælle på har fået mig til at indse noget indlysende, som vi måske allesammen har glemt: Læselyst bliver født af nærvær og modet til at fortælle rigtige historier, der gør ondt.*
 
+<!--more-->
+
 Hvis du ikke har læst Odysseen for nylig, så kan jeg fortælle, at det en historie med sex, drugs and rock n' roll! Det er ikke for sarte sjæle og slet ikke for børn. Alligevel er den tit blevet genfortalt for børn, og ender så ofte som et krybbespil, hvor kun uhyrerne er tilbage, og al længslen, drifterne og hævngerrigheden er forduftet.
 
 Nu har jeg prøvet at gøre noget andet, og undervejs har jeg opdaget, hvor min kærlighed til fortællinger og min læselyst egentlig stammer fra.
