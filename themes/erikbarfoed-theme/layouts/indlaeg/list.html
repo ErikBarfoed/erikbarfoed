@@ -5,8 +5,6 @@
     <a class="tekst-row" href="{{ .Permalink }}">
         {{ with .Params.cover }}
         <span class="tekst-thumb"><img src="{{ . | relURL }}" alt=""></span>
-        {{ else }}
-        <span class="tekst-thumb tekst-thumb-empty"></span>
         {{ end }}
         <span class="tekst-text">
             <span class="tekst-title">{{ .Title }}</span>
