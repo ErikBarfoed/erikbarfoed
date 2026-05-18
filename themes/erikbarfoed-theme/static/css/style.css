@@ -746,6 +746,9 @@ blockquote cite {
 
 /* ===== ARKIV ===== */
 .archive-year {
+    display: inline-block;
+    width: 3rem;
+    text-align: right;
     font-family: var(--font-ui);
     font-size: 1.2rem;
     margin-top: 2rem;
