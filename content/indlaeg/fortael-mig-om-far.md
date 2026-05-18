@@ -2,10 +2,10 @@
 title: "Fortæl mig om far"
 date: 2026-05-18
 projekt: "Historien om Ingen"
-cover: "/images/indlaeg/fortael-mig-om-far.jpg"
+cover: "/images/indlaeg/ole-barfoed.jpg"
 ---
 
-{{< figure src="/images/indlaeg/fortael-mig-om-far.jpg" alt="Studietegning af havsnød fra min skitsebog" caption="Et af virkelig mange studier jeg lavede i min skitsebog, mens jeg skrev Historien om Ingen" >}}
+{{< figure src="/images/indlaeg/ole-barfoed.jpg" alt="Sort-hvidt fotografi af Ole Barfoed med pibe" caption="Min far, Ole Barfoed (1925–1989), ved et dyrskue engang i tresserne." >}}
 
 *Min far døde for over tredive år siden, men I de sidste mange måneder har han — ligesom da jeg var barn — siddet ved siden af mig og hjulpet mig med at genfortælle Odysséen, så børn får glæde af den. Han har mindet mig om, hvad det vil sige at fortælle for børn. Hans måde at fortælle på har fået mig til at indse noget indlysende, som vi måske allesammen har glemt: Læselyst bliver født af nærvær og modet til at fortælle rigtige historier, der gør ondt.*
 
@@ -52,6 +52,8 @@ Jeg kan ikke genfortælle den historie på samme måde, som min far gjorde. Det 
 Og det var hele pointen. Det var min fars geni.
 
 Jeg måtte selv ombord i Odysseus' tolv sorte skibe og se, hvor jeg endte. Undervejs opdagede jeg en ny vej ind i min barndoms fortælling.
+
+{{< figure src="/images/indlaeg/fortael-mig-om-far.jpg" alt="Studietegning af havsnød fra min skitsebog" caption="Et af virkelig mange studier jeg lavede i min skitsebog, mens jeg skrev Historien om Ingen" >}}
 
 Det er Odysseus, der fortæller Odysséen. Men hvad nu hvis det ikke var ham, men hans søn, der fortalte den?
 
