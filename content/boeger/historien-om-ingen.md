@@ -11,7 +11,13 @@ price: "229,95 kr."
 release_date: "20. februar 2026"
 age: ""
 gallery: "historien-om-ingen"
-reviews: []
+reviews:
+  - quote: "Historien om Ingen er nok en græsk klassiker, men det bliver også en fantastisk fortælling, hvor Telemakos (helt som sin far) må finde sig selv og sin egen identitet."
+    source: "Bodil Christensen, IBBY"
+  - quote: "Romanen har på samme tid en følelsesfuld alvor og et eventyrligt homerisk univers. Barfoed lægger vægt på temaet om faderskab og afstand som dels er centralt hos Homer, dels er relaterbart for moderne mennesker."
+    source: "Anne Mari Borchert, Aigis"
+  - quote: "En vellykket og spændende moderne genfortælling af Odysseen fortalt af Telemakos, Odysseus' 11-årige søn. Man føler sig godt underholdt hele vejen igennem. Der er ikke mange illustrationer, kun ved kapitelskift. Disse er dog flotte og farverige og har en god sammenhæng med de efterfølgende kapitler. Et virkelig udgangspunkt for unge læsere til at dykke endnu mere ned i den græske mytologi."
+    source: "Lektørudtalelse"
 weight: 1
 ---
 
