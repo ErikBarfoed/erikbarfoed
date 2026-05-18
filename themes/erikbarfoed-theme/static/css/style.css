@@ -764,6 +764,8 @@ blockquote cite {
 }
 
 .archive-date {
+    display: inline-block;
+    width: 3rem;
     font-family: var(--font-ui);
     font-size: 0.85rem;
     color: #888;
