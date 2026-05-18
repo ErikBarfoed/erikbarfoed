@@ -5,9 +5,7 @@ projekt: "Historien om Ingen"
 cover: "/images/indlaeg/fortael-mig-om-far.jpg"
 ---
 
-![Studietegning af havsnød fra min skitsebog](/images/indlaeg/fortael-mig-om-far.jpg)
-
-*Et af virkelig mange studier jeg lavede i min skitsebog, mens jeg skrev Historien om Ingen*
+{{< figure src="/images/indlaeg/fortael-mig-om-far.jpg" alt="Studietegning af havsnød fra min skitsebog" caption="Et af virkelig mange studier jeg lavede i min skitsebog, mens jeg skrev Historien om Ingen" >}}
 
 *Min far døde for over tredive år siden, men I de sidste mange måneder har han — ligesom da jeg var barn — siddet ved siden af mig og hjulpet mig med at genfortælle Odysséen, så børn får glæde af den. Han har mindet mig om, hvad det vil sige at fortælle for børn. Hans måde at fortælle på har fået mig til at indse noget indlysende, som vi måske allesammen har glemt: Læselyst bliver født af nærvær og modet til at fortælle rigtige historier, der gør ondt.*
 
