@@ -12,6 +12,8 @@ release_date: "20. februar 2026"
 age: ""
 gallery: "historien-om-ingen"
 reviews:
+  - quote: "Noget har de til fælles, Erik Barfoed og Christopher Nolan, nemlig at skrive Homers fortælling ind i vores tid ... Barfoeds fortælling har smag af den mytologisk inspirerede fantasygenre, som mange børnelæsere i forvejen kender og elsker. Odysseens magiske saft og kraft er der stadigvæk."
+    source: "Anna K. Skyggebjerg, Weekendavisen"
   - quote: "Historien om Ingen er nok en græsk klassiker, men det bliver også en fantastisk fortælling, hvor Telemakos (helt som sin far) må finde sig selv og sin egen identitet."
     source: "Bodil Christensen, Bogbotten"
   - quote: "Romanen har på samme tid en følelsesfuld alvor og et eventyrligt homerisk univers. Barfoed lægger vægt på temaet om faderskab og afstand som dels er centralt hos Homer, dels er relaterbart for moderne mennesker."
