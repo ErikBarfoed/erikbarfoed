@@ -61,7 +61,7 @@ photos:
 <ul>
 <li><a href="https://www.weekendavisen.dk/boeger/odysseus-som-fravaerende-far">Odysseus som fraværende far</a> — Weekendavisen</li>
 <li>Anmeldelse — Bogbotten</li>
-<li>Anmeldelse — Aigis</li>
+<li><a href="https://tidsskrift.dk/aigis/article/view/167463/208402">Anmeldelse</a> — Aigis</li>
 <li>Lektørudtalelse — DBC</li>
 </ul>
 
