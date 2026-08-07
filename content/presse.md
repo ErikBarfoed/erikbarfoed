@@ -43,44 +43,38 @@ photos:
 <details class="press-list">
 <summary>Interview og video</summary>
 <ul>
-<li><a href="https://www.information.dk/kultur/2009/01/skryde-mens-kan">Man skal skryde mens man kan</a> — Information (2009)</li>
-<li><a href="https://www.tv2kosmopol.dk/lounge/bog-braek">Interview om Bræk</a> — TV2 Lounge</li>
-<li><a href="https://nummer9.dk/artikler/de-gale-revitaliserede-den-danske-boerne-og-ungdomstegneserie/">De gale revitaliserede den danske børne- og ungdomstegneserie</a> — Nummer 9 (2020)</li>
-<li><a href="https://www.gyldendal.dk/artikler/erik-barfoed-faengslet-ved-verdens-ende-interview">Erik Barfoed om 'den nemme 2'er'</a> — Gyldendal (2021)</li>
-<li><a href="https://www.gyldendal.dk/artikler/erik-barfoed-7a-interview">At fortælle med billeder</a> — Gyldendal (2025)</li>
-<li><a href="https://stream.gyldendal.dk/7a-grafiske-romaner-med-kristian">7.A – grafiske romaner med Kristian Eskild Jensen</a> — Gyldendal STREAM (video)</li>
-<li><a href="https://podtail.com/en/podcast/plotcast/">Løvehjerte-festivalen</a> — PlotCast (podcast med Erik Barfoed &amp; Peter Bay Alexandersen)</li>
 <li><a href="https://bibliotek.kk.dk/artikler/born-og-unge/bornebogcast-noget-om-helte-med-erik-barfoed">Børnebogcast: noget om helte</a> — Københavns Biblioteker (podcast om Historien om Ingen, 2026)</li>
+<li><a href="https://podtail.com/en/podcast/plotcast/">Løvehjerte-festivalen</a> — PlotCast (podcast med Erik Barfoed &amp; Peter Bay Alexandersen)</li>
+<li><a href="https://stream.gyldendal.dk/7a-grafiske-romaner-med-kristian">7.A – grafiske romaner med Kristian Eskild Jensen</a> — Gyldendal STREAM (video)</li>
+<li><a href="https://www.gyldendal.dk/artikler/erik-barfoed-7a-interview">At fortælle med billeder</a> — Gyldendal (2025)</li>
+<li><a href="https://www.gyldendal.dk/artikler/erik-barfoed-faengslet-ved-verdens-ende-interview">Erik Barfoed om 'den nemme 2'er'</a> — Gyldendal (2021)</li>
+<li><a href="https://nummer9.dk/artikler/de-gale-revitaliserede-den-danske-boerne-og-ungdomstegneserie/">De gale revitaliserede den danske børne- og ungdomstegneserie</a> — Nummer 9 (2020)</li>
+<li><a href="https://www.tv2kosmopol.dk/lounge/bog-braek">Interview om Bræk</a> — TV2 Lounge</li>
+<li><a href="https://www.information.dk/kultur/2009/01/skryde-mens-kan">Man skal skryde mens man kan</a> — Information (2009)</li>
 </ul>
 </details>
 
 <details class="press-list">
 <summary>Anmeldelser</summary>
 
-<h4>August går i Glemmebogen (2004)</h4>
+<h4>Historien om Ingen (2026)</h4>
 <ul>
-<li><a href="http://bogbotten.dk/boganmeldelse/august-gaar-i-glemmebogen/">Anmeldelse</a> — Bogbotten.dk</li>
+<li><a href="https://www.weekendavisen.dk/boeger/odysseus-som-fravaerende-far">Odysseus som fraværende far</a> — Weekendavisen</li>
+<li>Anmeldelse — Bogbotten</li>
+<li>Anmeldelse — Aigis</li>
+<li>Lektørudtalelse — DBC</li>
 </ul>
 
-<h4>August tager billetten (2009)</h4>
+<h4>Drengene fra Sankt Petri (2022)</h4>
 <ul>
-<li><a href="https://www.information.dk/kultur/anmeldelse/2009/02/doeden-daelme-ogsaa-boern">Døden er dælme også for børn</a> — Information</li>
-<li><a href="https://www.folkeskolen.dk/55711/august-tager-billetten">Anmeldelse</a> — Folkeskolen.dk</li>
+<li><a href="https://litteratursiden.dk/anmeldelser/drengene-fra-sankt-petri-grafisk-roman">Anmeldelse</a> — Litteratursiden.dk</li>
+<li><a href="https://bogbotten.dk/boganmeldelse/drengene-fra-sankt-petri/">Anmeldelse</a> — Bogbotten.dk</li>
 </ul>
 
-<h4>De Gale (2012)</h4>
+<h4>Fængslet ved Verdens Ende (2021)</h4>
 <ul>
-<li><a href="https://www.information.dk/kultur/anmeldelse/2012/03/gales-forvandling">De gales forvandling</a> — Information</li>
-<li><a href="https://www.folkeskolen.dk/dansk-danskundervisning-folkeskolen-nr-13-2012/de-gale/1792028">Anmeldelse</a> — Folkeskolen.dk</li>
-<li><a href="https://serieland.dk/anmeldelser/de-gale/">Anmeldelse</a> — Serieland.dk</li>
-<li><a href="https://beldenak.wordpress.com/2012/08/26/kim-fupz-aakeson-de-gale-graphic-novel/">Anmeldelse</a> — Beldenak</li>
-</ul>
-
-<h4>Lille Skid (2015)</h4>
-<ul>
-<li><a href="https://www.information.dk/kultur/anmeldelse/2015/01/lille-skid-stor-fantasi">Lille skid, stor fantasi</a> — Information</li>
-<li>Anmeldelse (4 stjerner) — Berlingske</li>
-<li><a href="http://bogbotten.dk/boganmeldelse/lille-skid/">Anmeldelse</a> — Bogbotten.dk</li>
+<li><a href="https://bogbotten.dk/boganmeldelse/faengslet-ved-verdens-ende/">Anmeldelse</a> — Bogbotten.dk</li>
+<li><a href="https://blog.bookbites.com/da/ugensbogbid/ugens-bogbid-f%C3%A6ngslet-ved-verdens-ende">Ugens Bogbid</a> — BookBites</li>
 </ul>
 
 <h4>Fangeskibet (2020)</h4>
@@ -91,24 +85,30 @@ photos:
 <li><a href="https://bogbotten.dk/boganmeldelse/fangeskibet/">Anmeldelse</a> — Bogbotten.dk</li>
 </ul>
 
-<h4>Fængslet ved Verdens Ende (2021)</h4>
+<h4>Lille Skid (2015)</h4>
 <ul>
-<li><a href="https://bogbotten.dk/boganmeldelse/faengslet-ved-verdens-ende/">Anmeldelse</a> — Bogbotten.dk</li>
-<li><a href="https://blog.bookbites.com/da/ugensbogbid/ugens-bogbid-f%C3%A6ngslet-ved-verdens-ende">Ugens Bogbid</a> — BookBites</li>
+<li><a href="https://www.information.dk/kultur/anmeldelse/2015/01/lille-skid-stor-fantasi">Lille skid, stor fantasi</a> — Information</li>
+<li>Anmeldelse (4 stjerner) — Berlingske</li>
+<li><a href="http://bogbotten.dk/boganmeldelse/lille-skid/">Anmeldelse</a> — Bogbotten.dk</li>
 </ul>
 
-<h4>Drengene fra Sankt Petri (2022)</h4>
+<h4>De Gale (2012)</h4>
 <ul>
-<li><a href="https://litteratursiden.dk/anmeldelser/drengene-fra-sankt-petri-grafisk-roman">Anmeldelse</a> — Litteratursiden.dk</li>
-<li><a href="https://bogbotten.dk/boganmeldelse/drengene-fra-sankt-petri/">Anmeldelse</a> — Bogbotten.dk</li>
+<li><a href="https://www.information.dk/kultur/anmeldelse/2012/03/gales-forvandling">De gales forvandling</a> — Information</li>
+<li><a href="https://www.folkeskolen.dk/dansk-danskundervisning-folkeskolen-nr-13-2012/de-gale/1792028">Anmeldelse</a> — Folkeskolen.dk</li>
+<li><a href="https://serieland.dk/anmeldelser/de-gale/">Anmeldelse</a> — Serieland.dk</li>
+<li><a href="https://beldenak.wordpress.com/2012/08/26/kim-fupz-aakeson-de-gale-graphic-novel/">Anmeldelse</a> — Beldenak</li>
 </ul>
 
-<h4>Historien om Ingen (2026)</h4>
+<h4>August tager billetten (2009)</h4>
 <ul>
-<li><a href="https://www.weekendavisen.dk/boeger/odysseus-som-fravaerende-far">Odysseus som fraværende far</a> — Weekendavisen</li>
-<li>Anmeldelse — Bogbotten</li>
-<li>Anmeldelse — Aigis</li>
-<li>Lektørudtalelse — DBC</li>
+<li><a href="https://www.information.dk/kultur/anmeldelse/2009/02/doeden-daelme-ogsaa-boern">Døden er dælme også for børn</a> — Information</li>
+<li><a href="https://www.folkeskolen.dk/55711/august-tager-billetten">Anmeldelse</a> — Folkeskolen.dk</li>
+</ul>
+
+<h4>August går i Glemmebogen (2004)</h4>
+<ul>
+<li><a href="http://bogbotten.dk/boganmeldelse/august-gaar-i-glemmebogen/">Anmeldelse</a> — Bogbotten.dk</li>
 </ul>
 
 </details>
