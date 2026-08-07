@@ -20,3 +20,6 @@ backup/
 
 # Notesfiler (ikke sitens indhold)
 omtaler-erik-barfoed*.md
+
+# Arbejdsmateriale (repoet er public — dette må ikke committes)
+materiale/
