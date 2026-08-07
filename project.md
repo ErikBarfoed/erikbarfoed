@@ -19,8 +19,13 @@ Meget positiv helsides anmeldelse af Historien om Ingen. Udført:
 ## Kommende
 
 - **Nolan-blogindlæg:** Erik overvejer vinklen (han er mindre begejstret for filmen end flertallet). Arbejdsgang som sidst: udkast → Eriks redigering → publicering
-- **Some-plan** (lagt 6/8, ligger i samtalehistorik; hovedpunkter): målgruppen er voksne formidlere (45-64+), FB er rækkeviddemotoren, delinger er det uudnyttede håndtag. Kadence: stories om anmeldelsen nu, citatkort-rotation (WA/Bogbotten/Aigis/lektør) ca. ugentligt, Nolan-indlæg + some-push, Børnebogcast i stille uger. Gyldendal-collab-opslag kørte 7/8
+- **Some-plan** (lagt 6/8, ligger i samtalehistorik; hovedpunkter): målgruppen er voksne formidlere (45-64+), FB er rækkeviddemotoren, delinger er det uudnyttede håndtag. Udført 7/8: story med helsides-foto (link-sticker til forsiden, @leadickert.art tagget) + FB-opslag med delings-opfordring; Gyldendal-collab-opslag kørte samme dag. Tilbage i kadencen: citatkort-rotation (WA/Bogbotten/Aigis/lektør) ca. ugentligt, Nolan-indlæg + some-push, Børnebogcast i stille uger
 - Sitet har ingen besøgsstatistik; Plausible/GoatCounter er en mulighed, hvis Erik vil måle some-trafik
+
+## Presseopfølgning (7/8 2026)
+
+- Opfølgningsmail til 7 udvalgte pressekontakter fra bølge 1: WA-anmeldelsen som anledning, vinkel "Odysseen som bro mellem generationer", interview tilbydes. Udkast med individuelle hooks ligger i `mailudkast-presse-anmeldelse.md` på Eriks skrivebord — afventer Eriks redigering og afsendelse. Masterark: Kronik-mappen i iCloud (15.20 Historien om Ingen)
+- Observation: WA-anmelderen (Anna K. Skyggebjerg) fik presseinfo i februar-kampagnen
 
 ## Materiale
 
