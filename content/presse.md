@@ -50,6 +50,7 @@ photos:
 <li><a href="https://www.gyldendal.dk/artikler/erik-barfoed-7a-interview">At fortælle med billeder</a> — Gyldendal (2025)</li>
 <li><a href="https://stream.gyldendal.dk/7a-grafiske-romaner-med-kristian">7.A – grafiske romaner med Kristian Eskild Jensen</a> — Gyldendal STREAM (video)</li>
 <li><a href="https://podtail.com/en/podcast/plotcast/">Løvehjerte-festivalen</a> — PlotCast (podcast med Erik Barfoed &amp; Peter Bay Alexandersen)</li>
+<li><a href="https://bibliotek.kk.dk/artikler/born-og-unge/bornebogcast-noget-om-helte-med-erik-barfoed">Børnebogcast: noget om helte</a> — Københavns Biblioteker (podcast om Historien om Ingen, 2026)</li>
 </ul>
 </details>
 
@@ -100,6 +101,14 @@ photos:
 <ul>
 <li><a href="https://litteratursiden.dk/anmeldelser/drengene-fra-sankt-petri-grafisk-roman">Anmeldelse</a> — Litteratursiden.dk</li>
 <li><a href="https://bogbotten.dk/boganmeldelse/drengene-fra-sankt-petri/">Anmeldelse</a> — Bogbotten.dk</li>
+</ul>
+
+<h4>Historien om Ingen (2026)</h4>
+<ul>
+<li><a href="https://www.weekendavisen.dk/boeger/odysseus-som-fravaerende-far">Odysseus som fraværende far</a> — Weekendavisen</li>
+<li>Anmeldelse — Bogbotten</li>
+<li>Anmeldelse — Aigis</li>
+<li>Lektørudtalelse — DBC</li>
 </ul>
 
 </details>

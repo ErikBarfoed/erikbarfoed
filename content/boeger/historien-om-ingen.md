@@ -31,6 +31,8 @@ Gennem møder med kyklopen, troldkvinden og andre, der har haft den tvivlsomme f
 
 *Historien om Ingen* er en moderne genfortælling af Odysseen om at finde sin plads i verden, når ens familie er i stykker. Det er en fortælling om at gå sin egen vej — og om at finde hinanden trods alle odds. Fuld af drama, vidunderlige monstre og fascinerende farveillustrationer af Lea Dickert.
 
+Hør mig fortælle om bogen i [Børnebogcast: noget om helte](https://bibliotek.kk.dk/artikler/born-og-unge/bornebogcast-noget-om-helte-med-erik-barfoed) fra Københavns Biblioteker.
+
 <details class="book-excerpt">
 <summary>Læs uddrag</summary>
 <div class="excerpt-text">
