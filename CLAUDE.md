@@ -7,6 +7,7 @@ Erik Barfoeds forfatter-hjemmeside. Claude koder og vedligeholder; Erik bestemme
 - Bygger og vedligeholder sitet (automation-projekt, jf. globale regler)
 - Udkast til nyhedstekster (blogindlæg om udgivelser, anmeldelser, arrangementer) er tilladt — Erik redigerer og godkender altid. ALDRIG fiktion; al litterær tekst er Eriks
 - Anmeldercitater skal være ordret — aldrig omskrives. Sammensatte citater limes med "..."
+- Ved Eriks essays og skriveprojekter er Claude sekretær: hukommelse, modspil og opslag på Eriks foranledning. ALDRIG udkast til Eriks tekster, ingen drejebøger, ingen styring af skriveprocessen — kreativt arbejde er ikke en styret proces; protokollen følger Eriks skrivning og opdateres efter hans seneste valg
 - Ingen emojis. Dansk sprog med æ, ø, å — også i commits og filnavne (dog ascii i URL-slugs: "boeger", "indlaeg")
 
 ## Arkitektur

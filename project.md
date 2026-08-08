@@ -18,7 +18,7 @@ Meget positiv helsides anmeldelse af Historien om Ingen. Udført:
 
 ## Kommende
 
-- **Nolan-blogindlæg:** Erik overvejer vinklen (han er mindre begejstret for filmen end flertallet). Arbejdsgang som sidst: udkast → Eriks redigering → publicering
+- **Essay "Må græsset betrædes?"** (tidl. "Nolan-blogindlæg"): craft-essay om at genfortælle klassikere. Erik skriver AL tekst; Claude er sekretær — hukommelse (protokol over stof, argumentation, beslutninger), modspil og opslag på Eriks foranledning; ingen udkast, ingen processtyring — protokollen følger skrivningen, ikke foran. Input-fasen lukket 8/8; Erik skriver og vender tilbage. Filer: `materiale/essay-skrivegrundlag.md` (tematisk opslagsværk) + `materiale/essay-maa-graesset-betraedes.md` (kronologisk protokol). Åbent: om protokol-filen fryses som ren historik
 - **Some-plan** (lagt 6/8, ligger i samtalehistorik; hovedpunkter): målgruppen er voksne formidlere (45-64+), FB er rækkeviddemotoren, delinger er det uudnyttede håndtag. Udført 7/8: story med helsides-foto (link-sticker til forsiden, @leadickert.art tagget) + FB-opslag med delings-opfordring; Gyldendal-collab-opslag kørte samme dag. Tilbage i kadencen: citatkort-rotation (WA/Bogbotten/Aigis/lektør) ca. ugentligt, Nolan-indlæg + some-push, Børnebogcast i stille uger
 - Sitet har ingen besøgsstatistik; Plausible/GoatCounter er en mulighed, hvis Erik vil måle some-trafik
 
