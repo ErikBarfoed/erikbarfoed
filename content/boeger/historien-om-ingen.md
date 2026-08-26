@@ -33,6 +33,8 @@ Gennem møder med kyklopen, troldkvinden og andre, der har haft den tvivlsomme f
 
 Hør mig fortælle om bogen i [Børnebogcast: noget om helte](https://bibliotek.kk.dk/artikler/born-og-unge/bornebogcast-noget-om-helte-med-erik-barfoed) fra Københavns Biblioteker.
 
+Bogen udkommer på tysk (Woow Books), polsk (Nowa Basn) og singalesisk (Dedunna Books).
+
 <details class="book-excerpt">
 <summary>Læs uddrag</summary>
 <div class="excerpt-text">
