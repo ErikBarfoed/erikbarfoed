@@ -1,11 +1,11 @@
 ---
 title: "Odysseus' rejse fortsætter"
 date: 2026-08-26
-cover: "/images/historien-om-ingen-udlandssalg.jpg"
+cover: "/images/historien-om-ingen-udlandssalg-eventyr.jpg"
 art: "nyhed"
 ---
 
-![Historien om Ingen — solgt til udgivelse i Tyskland, Polen og Sri Lanka](/images/historien-om-ingen-udlandssalg.jpg)
+![Odysseus og Telemakos på nye eventyr — Historien om Ingen er solgt til udgivelse i Tyskland, Polen og Sri Lanka](/images/historien-om-ingen-udlandssalg-eventyr.jpg)
 
 **Historien om Ingen udkommer i Tyskland, Polen og Sri Lanka**
 
