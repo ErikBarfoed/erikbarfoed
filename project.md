@@ -1,6 +1,6 @@
 # Status og plan — erikbarfoed.dk
 
-Senest opdateret: 7. august 2026
+Senest opdateret: 28. august 2026
 
 ## Aktuel tilstand
 
@@ -15,6 +15,14 @@ Meget positiv helsides anmeldelse af Historien om Ingen. Udført:
 - Blogindlæg `content/indlaeg/anmeldelse-i-weekendavisen.md` (live, øverst på forsiden) — med PS, der lover et kommende indlæg om Nolans film
 - Presseside: HOI-sektion under Anmeldelser + Børnebogcast under Interview; nyeste øverst i begge sektioner
 - Børnebogcast-link også på bogsiden
+
+## Udlandssalg af Historien om Ingen (26/8 2026)
+
+Gyldendal Group Agency (Janne Møller) meldte 26/8 tre udenlandske salg: Tyskland (Woow Books, W1 Verlage — tysk), Polen (Nowa Basn — polsk), Sri Lanka (Dedunna Books — singalesisk). Vilkår står i mailen, ikke her (offentligt repo). Udført:
+
+- Indlæg `content/indlaeg/historien-om-ingen-solgt-til-udlandet.md` (live 26/8, omskrevet 28/8): titel og nyhed bæres af Eriks billede (`historien-om-ingen-udlandssalg-eventyr.jpg`); teksten gentager ikke billedets ord, kun forlag/sprog/agentur. Et første landkort-billede er fjernet igen
+- Bogsiden: én sætning om de tre udgaver efter Børnebogcast-afsnittet
+- Some-udkast (FB) leveret i samtalen 26/8; ikke publiceret af Claude
 
 ## Kommende
 
