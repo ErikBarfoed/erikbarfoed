@@ -35,6 +35,8 @@ Hør mig fortælle om bogen i [Børnebogcast: noget om helte](https://bibliotek.
 
 Bogen udkommer på tysk (Woow Books), polsk (Nowa Basn) og singalesisk (Dedunna Books).
 
+Læs mere om bogens tilblivelse [her](/indlaeg/fortael-mig-om-far/), og om bøgers evne til at binde generationerne sammen.
+
 <details class="book-excerpt">
 <summary>Læs uddrag</summary>
 <div class="excerpt-text">
